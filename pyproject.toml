@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clean-architecture"
+version = "0.1.0"
+description = "Projeto para a tech talk de Clean Architecture"
+authors = [ "Izabela Guerreiro <izaguerreiro@gmail.com>" ]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.70.0"
+pymongo = "^3.12.1"
+mypy = "^0.910"
+flake8 = "^4.0.1"
+uvicorn = "^0.15.0"
+requests = "^2.26.0"
+dnspython = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
